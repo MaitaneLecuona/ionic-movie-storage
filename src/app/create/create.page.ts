@@ -50,7 +50,8 @@ export class CreatePage implements OnInit{
                     }
                 }
             ]
-        });       
+        });   
+        toast.present();    
     }
 
     saveMovie() {
